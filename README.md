@@ -73,10 +73,29 @@ def sarsa(env,
     return Q, V, pi, Q_track, pi_track
 ```
 ## OUTPUT:
-Mention the optimal policy, optimal value function , success rate for the optimal policy.
 
-Include plot comparing the state value functions of Monte Carlo method and SARSA learning.
+### Optimal Policy:
+![image](https://github.com/user-attachments/assets/3301c5fa-bd18-4d34-8beb-49100e9ed842)
+
+
+### First Visit Monte Carlo Method:
+![image](https://github.com/user-attachments/assets/440f6448-ef66-4f7c-83fc-83f5eaaab288)
+
+
+### SARSA Learning Algorithm:
+![image](https://github.com/user-attachments/assets/470925a7-3446-47da-8e7f-c708a7984873)
+
+
+### Plot comparing the state value functions of Monte Carlo method and SARSA learning:
+
+#### State value functions of Monte Carlo method:
+![image](https://github.com/user-attachments/assets/6635fdee-f71c-4cb2-9c26-be642385d0d9)
+
+
+#### State value functions of SARSA learning:
+![image](https://github.com/user-attachments/assets/9fa32d5a-de41-4b23-af34-cdef452ec45c)
+
 
 ## RESULT:
 
-Write your result here
+Thus, the implementation of SARSA learning algorithm was implemented successfully.
